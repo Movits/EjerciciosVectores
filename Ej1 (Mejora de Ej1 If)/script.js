@@ -16,6 +16,8 @@ function verificar(){
     usuarioNombreIngresado = inputUsuario.value;
     usuarioContrasenaIngresada = inputContrasena.value;
     
+    resultadoDiv.className = "result-container";
+
     resultadoDiv.innerHTML = ``;
 
     if (((usuarioNombreIngresado == Usuarios[0]) && (usuarioContrasenaIngresada == Contrasenas[0])) ) {
