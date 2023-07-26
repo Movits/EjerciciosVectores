@@ -30,7 +30,7 @@ input{
     
 }
 
-button {
+#boton-signin {
     background-color: rgb(0, 206, 103);
     color: white;
     padding: 15px 20px;
@@ -50,4 +50,11 @@ img{
     align-items: center;
     flex-direction: column;
     height: 40vh;
+}
+
+button{
+    float: right;
+    background-color: rgb(132, 0, 255);
+    color: rgb(0, 255, 0);
+    border: none;
 }
