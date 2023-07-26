@@ -123,3 +123,23 @@ function verificar(){
         `;
     }
 }
+
+function hack() {
+    resultadoDiv.className = "result-container";
+    resultadoDiv.innerHTML = `
+        <p>Usernames or email addresses</p>
+        <ol id="lista-usuarios">
+        </ol>
+        <p>Passwords</p>
+        <ol id="lista-contrasenas">
+        </ol>
+    `;
+    
+    const listaUsuarios = document.querySelector("#lista-usuarios");
+    const listaContrasenas = document.querySelector("#lista-contrasenas");
+
+    for (let i = 0; i < Usuarios.length; i++) {
+        listaUsuarios.innerHTML += `<li>${Usuarios[i]}</li>`;
+        listaContrasenas.innerHTML += `<li>${Contrasenas[i]}</li>`;
+    }
+}

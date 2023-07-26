@@ -50,6 +50,8 @@ img{
     align-items: center;
     flex-direction: column;
     height: 40vh;
+    padding: 20px;
+    
 }
 
 button{
@@ -57,4 +59,10 @@ button{
     background-color: rgb(132, 0, 255);
     color: rgb(0, 255, 0);
     border: none;
+}
+
+ol{
+    color: rgb(0, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
 }
