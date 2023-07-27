@@ -23,6 +23,7 @@ button{
 }
 
 #div-imgs img {
+    margin-top: 5vh;
     margin-left: auto;
     margin-right: auto;
 }
