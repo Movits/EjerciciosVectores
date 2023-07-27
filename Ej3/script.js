@@ -18,7 +18,11 @@ function borrarUltImg() {
 
 
 function borrarImgPos() {
-    const posImg = inputPosImg.value;
+    const posImg = inputPosImg.value - 1;
+    if (posImg >= 0 && posImg < IMGS.length) {
+        IMGS.splice(posImg, 1);
+        updateDivImgs();
+    }
 }
 
 function updateDivImgs() {
