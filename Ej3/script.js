@@ -7,19 +7,18 @@ const IMGS = [];
 function agregar() {
     const IMGS_AGREGADAS = inputImgs.value;
     IMGS.push(IMGS_AGREGADAS);
-    divImgs.innerHTML += `
-        <img src="${IMGS_AGREGADAS}" alt="">
-    `;
+    updateDivImgs();
 }
 
 function borrarUltImg() {
     IMGS.pop();
+    updateDivImgs();
 }
 
-const posImg = inputPosImg.value;
 
-function borrarImgPos(posImg) {
-    
+
+function borrarImgPos() {
+    const posImg = inputPosImg.value;
 }
 
 function updateDivImgs() {
