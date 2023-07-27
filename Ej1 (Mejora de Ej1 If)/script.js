@@ -21,7 +21,7 @@ function verificar(){
     resultadoDiv.innerHTML = ``;
 
     if (((usuarioNombreIngresado == Usuarios[0]) && (usuarioContrasenaIngresada == Contrasenas[0])) ) {
-        pResultado.innerHTML = "Bienvenido " + Usuarios[0];
+        pResultado.innerHTML = "Welcome " + Usuarios[0];
         pResultado.style.color = "green";
         imgRes1.src = "https://i.ebayimg.com/images/g/GbkAAOSwp2dd1oZ2/s-l1200.jpg";
         imgRes1.style.display = "block";
@@ -33,7 +33,7 @@ function verificar(){
         `;
         
     } else if (((usuarioNombreIngresado == Usuarios[1]) && (usuarioContrasenaIngresada == Contrasenas[1]))) {
-        pResultado.innerHTML = "Bienvenido " + Usuarios[1];
+        pResultado.innerHTML = "Welcome " + Usuarios[1];
         pResultado.style.color = "green";
         imgRes1.src = "https://i.ebayimg.com/images/g/GbkAAOSwp2dd1oZ2/s-l1200.jpg";
         imgRes1.style.display = "block";
@@ -46,7 +46,7 @@ function verificar(){
     }
 
     else if (((usuarioNombreIngresado == Usuarios[2]) && (usuarioContrasenaIngresada == Contrasenas[2]))) {
-        pResultado.innerHTML = "Bienvenido " + Usuarios[2];
+        pResultado.innerHTML = "Welcome " + Usuarios[2];
         pResultado.style.color = "green";
         imgRes1.src = "https://i.ebayimg.com/images/g/GbkAAOSwp2dd1oZ2/s-l1200.jpg";
         imgRes1.style.display = "block";
@@ -59,7 +59,7 @@ function verificar(){
     }
     
     else if (((usuarioNombreIngresado == Usuarios[3]) && (usuarioContrasenaIngresada == Contrasenas[3]))) {
-        pResultado.innerHTML = "Bienvenido " + Usuarios[3];
+        pResultado.innerHTML = "Welcome " + Usuarios[3];
         pResultado.style.color = "green";
         imgRes1.src = "https://i.ebayimg.com/images/g/GbkAAOSwp2dd1oZ2/s-l1200.jpg";
         imgRes1.style.display = "block";
@@ -72,7 +72,7 @@ function verificar(){
     }
 
     else if (((usuarioNombreIngresado == Usuarios[4]) && (usuarioContrasenaIngresada == Contrasenas[4]))) {
-        pResultado.innerHTML = "Bienvenido " + Usuarios[4];
+        pResultado.innerHTML = "Welcome " + Usuarios[4];
         pResultado.style.color = "green";
         imgRes1.src = "https://i.ebayimg.com/images/g/GbkAAOSwp2dd1oZ2/s-l1200.jpg";
         imgRes1.style.display = "block";
@@ -85,7 +85,7 @@ function verificar(){
     }
 
     else if (((usuarioNombreIngresado == Usuarios[5]) && (usuarioContrasenaIngresada == Contrasenas[5]))) {
-        pResultado.innerHTML = "Bienvenido " + Usuarios[5];
+        pResultado.innerHTML = "Welcome " + Usuarios[5];
         pResultado.style.color = "green";
         imgRes1.src = "https://i.ebayimg.com/images/g/GbkAAOSwp2dd1oZ2/s-l1200.jpg";
         imgRes1.style.display = "block";
@@ -98,7 +98,7 @@ function verificar(){
     }
 
     else if (((usuarioNombreIngresado == Usuarios[6]) && (usuarioContrasenaIngresada == Contrasenas[6]))) {
-        pResultado.innerHTML = "Bienvenido " + Usuarios[6];
+        pResultado.innerHTML = "Welcome " + Usuarios[6];
         pResultado.style.color = "green";
         imgRes1.src = "https://i.ebayimg.com/images/g/GbkAAOSwp2dd1oZ2/s-l1200.jpg";
         imgRes1.style.display = "block";
@@ -111,7 +111,7 @@ function verificar(){
     }
     
     else{
-        pResultado.innerHTML = "Usuario o contrasena incorrectos";
+        pResultado.innerHTML = "User and/or password  is incorrect";
         pResultado.style.color = "red";
         imgRes2.src = "https://clipart-library.com/data_images/49138.png";
         imgRes2.style.display = "block";
