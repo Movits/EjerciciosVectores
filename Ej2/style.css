@@ -1,0 +1,9 @@
+#div-geral{
+    border: black 2px solid;
+    padding: 10px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}

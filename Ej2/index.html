@@ -7,21 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <select id="producto-select">
-        <option value="Producto 1">Producto 1</option>
-        <option value="Producto 2">Producto 2</option>
-        <option value="Producto 3">Producto 3</option>
-      </select>
+    <div id="div-geral">
+        <p>Seleccione producto a comprar</p>
+        <select id="producto-select">
+            <option value="Producto 1">Producto 1</option>
+            <option value="Producto 2">Producto 2</option>
+            <option value="Producto 3">Producto 3</option>
+        </select>
       
-      <button onclick="compra()">Comprar</button>
+        <button onclick="compra()">Comprar</button>
       
-      <div id="tabla-productos">
-        <p id="producto1">Producto 1 - Stock: 100</p>
-        <p id="producto2">Producto 2 - Stock: 100</p>
-        <p id="producto3">Producto 3 - Stock: 100</p>
-      </div>
-
-      
+        <div id="tabla-productos">
+            <p id="producto1">Producto 1 - Stock: 100</p>
+            <p id="producto2">Producto 2 - Stock: 100</p>
+            <p id="producto3">Producto 3 - Stock: 100</p>
+        </div>
+    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
